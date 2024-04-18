@@ -52,7 +52,7 @@ const Notes = () => {
           onChange={(e) => setNewNote({ ...newNote, title: e.target.value })}
         />
         <textarea
-        rows={5}
+          rows={5}
           placeholder="Content"
           value={newNote.content}
           onChange={(e) => setNewNote({ ...newNote, content: e.target.value })}
